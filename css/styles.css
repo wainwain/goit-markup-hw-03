@@ -9,6 +9,34 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* START OF HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  background-color: lightpink;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  margin-left: 156px;
+}
+
+.main-navigation {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style: none;
+  display: flex;
+}
+
+.main-contacts {
+  display: flex;
+  margin-right: 136px;
+}
+
 .logo {
   text-decoration: none;
   color: var(--NAVYBLUE);
@@ -18,6 +46,9 @@ body {
   margin-bottom: 0px;
   line-height: 21px;
   letter-spacing: 0.54px;
+  display: flex;
+  background-color: lightgreen;
+  margin-right: 56px;
 }
 .logo span {
   color: var(--IRIS);
@@ -33,11 +64,6 @@ body {
   color: var(--OCEAN);
 }
 
-.main-navigation {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .main-navigation > li > a {
   color: var(--NAVYBLUE);
   font-size: 16px;
@@ -45,6 +71,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
+  padding: 20px;
 }
 
 .main-navigation:active {
@@ -60,27 +87,33 @@ a {
   text-decoration: none;
 }
 
-.main-contacts {
-  margin-top: 0;
-}
-
 .main-contacts > li > a {
   color: var(--SLATE);
   line-height: 24px;
   letter-spacing: 0.32px;
+  margin-right: 20px;
 }
+
+/* END OF HEADER */
+
+/* START OF BIG HEADING */
 
 .title {
   background-color: var(--NAVYBLUE);
+  margin-top: 0;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
 .title-text {
+  display: flex;
   color: white;
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
+  align-items: center;
 }
 
 .btn:hover,
@@ -97,6 +130,7 @@ a {
   line-height: 24px;
   letter-spacing: 0.64px;
   border-radius: 2px;
+  display: flex;
 }
 
 .solutions h3 {
