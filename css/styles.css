@@ -1,0 +1,158 @@
+:root {
+  --IRIS: #4d5ae5;
+  --NAVYBLUE: #2e2f42;
+  --OCEAN: #404bbf;
+  --SLATE: #434455;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--NAVYBLUE);
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 800;
+  margin-bottom: 0px;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+}
+.logo span {
+  color: var(--IRIS);
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+  color: var(--OCEAN);
+}
+
+.main-contacts a:hover,
+.main-contacts a:focus {
+  color: var(--OCEAN);
+}
+
+.main-navigation {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-navigation > li > a {
+  color: var(--NAVYBLUE);
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.main-navigation:active {
+  color: var(--OCEAN);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-contacts {
+  margin-top: 0;
+}
+
+.main-contacts > li > a {
+  color: var(--SLATE);
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.title {
+  background-color: var(--NAVYBLUE);
+}
+
+.title-text {
+  color: white;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--OCEAN);
+}
+
+.btn {
+  color: white;
+  background-color: var(--IRIS);
+  font-family: inherit;
+  font-weight: 500;
+  border-width: 0;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  border-radius: 2px;
+}
+
+.solutions h3 {
+  color: var(--NAVYBLUE);
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.solutions p {
+  color: var(--SLATE);
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.services h2,
+.team h2 {
+  text-align: center;
+  color: var(--NAVYBLUE);
+  font-weight: 700;
+  font-size: 36px;
+  font-family: Roboto;
+  text-transform: capitalize;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+}
+
+.team h3 {
+  color: var(--NAVYBLUE);
+  font-weight: 500;
+  font-size: 20px;
+  font-family: Roboto;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.team p {
+  color: var(--SLATE);
+  font-family: Roboto;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+footer,
+footer a {
+  background-color: var(--NAVYBLUE);
+  color: white;
+}
+
+footer span {
+  color: var(--IRIS);
+  font-family: Raleway;
+  font-weight: 800;
+}
+
+footer a {
+  font-weight: 800;
+}
