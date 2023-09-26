@@ -139,6 +139,16 @@ a {
   font-size: 16px;
 }
 
+/* END OF BIG HEADING */
+
+/* START OF SOLUTIONS SECTION */
+
+.solutions {
+  display: flex;
+  background-color: lightseagreen;
+  flex-direction: row;
+}
+
 .solutions h3 {
   color: var(--NAVYBLUE);
   font-size: 20px;
@@ -147,11 +157,24 @@ a {
   line-height: 24px;
   letter-spacing: 0.4px;
 }
+
+.solutions ul {
+  justify-content: center;
+  align-items: center;
+}
+
+.solutions li {
+  height: 104px;
+  width: 264px;
+  display: inline-block;
+}
 .solutions p {
   color: var(--SLATE);
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+
+/* END OF SOLUTIONS SECTION */
 
 .services h2,
 .team h2 {
