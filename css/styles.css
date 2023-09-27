@@ -29,7 +29,6 @@ header {
   display: flex;
   justify-content: space-between;
   height: 72px;
-  background-color: lightpink;
   margin-bottom: 0;
   align-items: center;
 }
@@ -61,7 +60,6 @@ header {
   line-height: 21px;
   letter-spacing: 0.54px;
   display: flex;
-  background-color: lightgreen;
   margin-right: 56px;
 }
 .logo span {
@@ -150,7 +148,6 @@ header {
 
 .solutions {
   display: flex;
-  background-color: lightgreen;
   justify-content: center;
   margin-top: 120px;
   height: 104px;
@@ -178,7 +175,6 @@ header {
 }
 
 h3 {
-  background-color: lightgray;
 }
 
 .solutions-sub {
@@ -198,7 +194,6 @@ h3 {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  background-color: lightsalmon;
   margin: 0;
 }
 
@@ -219,7 +214,6 @@ h3 {
   text-transform: capitalize;
   line-height: 40px;
   letter-spacing: 0.72px;
-  background-color: lightseagreen;
   margin-top: 120px;
   margin-bottom: 72px;
 }
@@ -233,7 +227,6 @@ h3 {
   flex-direction: row;
   gap: 24px;
   justify-content: center;
-  background-color: lightgoldenrodyellow;
 }
 .team-list > li {
   background-color: white;
@@ -289,7 +282,6 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightcyan;
   flex-grow: 1;
   gap: 8px;
 }
@@ -382,7 +374,4 @@ footer > div > a {
   gap: 24px;
   flex-basis: calc((100% - 40px) / 3);
   justify-content: center;
-}
-
-.option {
 }
