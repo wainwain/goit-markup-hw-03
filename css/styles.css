@@ -146,7 +146,8 @@ a {
 .solutions {
   display: flex;
   background-color: lightseagreen;
-  flex-direction: row;
+  justify-content: center;
+  margin-top: 120px;
 }
 
 .solutions h3 {
@@ -161,17 +162,39 @@ a {
 .solutions ul {
   justify-content: center;
   align-items: center;
+  margin-top: 0;
 }
 
-.solutions li {
-  height: 104px;
-  width: 264px;
-  display: inline-block;
+.solutions h3 {
+  margin: 0;
 }
+
+h3 {
+  background-color: lightgray;
+}
+
+.solutions p {
+  background-color: lightsalmon;
+  margin: 0;
+}
+
+.solutions-sub {
+  display: inline-flex;
+  width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0 12px;
+}
+
 .solutions p {
   color: var(--SLATE);
   line-height: 24px;
   letter-spacing: 0.32px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* END OF SOLUTIONS SECTION */
