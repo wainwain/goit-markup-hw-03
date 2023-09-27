@@ -3,6 +3,7 @@
   --NAVYBLUE: #2e2f42;
   --OCEAN: #404bbf;
   --SLATE: #434455;
+  --CLOUD: #f4f4fd;
 }
 
 /* Global styles */
@@ -148,7 +149,7 @@ header {
 
 .solutions {
   display: flex;
-  background-color: lightseagreen;
+  background-color: lightgreen;
   justify-content: center;
   margin-top: 120px;
   height: 104px;
@@ -166,7 +167,7 @@ header {
 .solutions-main {
   margin-top: 0;
   display: flex;
-  gap: 20px;
+  gap: 24px;
   justify-content: center;
   align-items: center;
 }
@@ -184,7 +185,6 @@ h3 {
   width: 264px;
   height: 104px;
   flex-direction: column;
-
   gap: 8px;
   box-sizing: border-box;
 }
@@ -220,6 +220,44 @@ h3 {
   letter-spacing: 0.72px;
   background-color: lightseagreen;
   margin-top: 120px;
+  margin-bottom: 72px;
+}
+
+.team {
+  background-color: var();
+}
+
+.services-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+  background-color: lightgoldenrodyellow;
+}
+.team-list > li {
+  background-color: white;
+}
+
+.services-list li img {
+  display: block;
+}
+
+/*
+        WHAT ARE WE DOING
+      */
+
+/*
+        OUR TEAM
+      */
+
+.team {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--CLOUD);
+  margin-top: 120px;
+  height: 732px;
+  box-sizing: border-box;
 }
 
 .team h3 {
@@ -231,6 +269,35 @@ h3 {
   letter-spacing: 0.4px;
 }
 
+.team-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.team-list > li {
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  width: 264px;
+}
+
+.team-list > li > div {
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcyan;
+  flex-grow: 1;
+  gap: 8px;
+}
+
+.team-list h3,
+.team-list p {
+  margin: 0px;
+}
+
 .team p {
   color: var(--SLATE);
   font-family: Roboto;
@@ -238,10 +305,18 @@ h3 {
   letter-spacing: 0.32px;
 }
 
+/*
+     END   OUR TEAM
+      */
+
 footer,
 footer a {
   background-color: var(--NAVYBLUE);
   color: white;
+}
+
+footer {
+  height: 312px;
 }
 
 footer span {
@@ -252,4 +327,16 @@ footer span {
 
 footer a {
   font-weight: 800;
+}
+
+footer > div {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 156px;
+}
+
+footer > div > a {
+  margin-top: 101.5px;
 }
