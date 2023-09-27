@@ -375,3 +375,7 @@ footer > div > a {
   flex-basis: calc((100% - 40px) / 3);
   justify-content: center;
 }
+
+.ftr {
+  margin-top: 120px;
+}
