@@ -3,21 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Web Studio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
+      <!-- 
+        HEADER
+      -->
+
       <nav class="main">
         <a href="#" class="logo"><span>WEB</span>STUDIO</a>
         <ul class="main-navigation">
           <li><a href="./index.html">Studio</a></li>
-          <li><a href="/">Portfolio</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
 
       <!-- 
-        contacts
+        CONTACTS
       -->
 
       <ul class="main-contacts">
@@ -33,17 +50,17 @@
       -->
     <main>
       <section>
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web Site</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
+        <ul class="btn-port-list">
+          <li><button type="button" class="btn-port">All</button></li>
+          <li><button type="button" class="btn-port">Web Site</button></li>
+          <li><button type="button" class="btn-port">App</button></li>
+          <li><button type="button" class="btn-port">Design</button></li>
+          <li><button type="button" class="btn-port">Marketing</button></li>
         </ul>
       </section>
 
-      <section>
-        <ul>
+      <section class="option">
+        <ul class="option-list">
           <li>
             <img
               src="images/bank-interface.jpg"
@@ -94,12 +111,14 @@
         main
       -->
     <footer>
-      <a href="#"><span>WEB</span>STUDIO</a>
-      <p>
-        Increase the flow of customers and<br />
-        sales for your business with digital<br />
-        marketing & growth solutions.
-      </p>
+      <div>
+        <a href="#"><span>WEB</span>STUDIO</a>
+        <p>
+          Increase the flow of customers and<br />
+          sales for your business with digital<br />
+          marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

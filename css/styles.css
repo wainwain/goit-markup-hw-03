@@ -4,6 +4,7 @@
   --OCEAN: #404bbf;
   --SLATE: #434455;
   --CLOUD: #f4f4fd;
+  --CORNFLOWER: #e7e9fc;
 }
 
 /* Global styles */
@@ -339,4 +340,49 @@ footer > div {
 
 footer > div > a {
   margin-top: 101.5px;
+}
+
+/*
+     PORTFOLIO
+      */
+
+.btn-port:hover,
+.btn-port:focus {
+  background-color: var(--OCEAN);
+}
+
+.btn-port {
+  color: var(--IRIS);
+  background-color: var(--CLOUD, #f4f4fd);
+  font-family: inherit;
+  font-weight: 500;
+  border: 1px solid var(--CORNFLOWER);
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  display: flex;
+  padding: 12px 24px;
+  font-size: 16px;
+  flex-direction: row;
+}
+
+.btn-port-list {
+  margin-top: 96px;
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+
+.option-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  flex-basis: calc((100% - 40px) / 3);
+  justify-content: center;
+}
+
+.option {
 }
