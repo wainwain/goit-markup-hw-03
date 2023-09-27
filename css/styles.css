@@ -341,6 +341,7 @@ footer > div > a {
 .btn-port:hover,
 .btn-port:focus {
   background-color: var(--OCEAN);
+  color: white;
 }
 
 .btn-port {
