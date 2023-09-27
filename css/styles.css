@@ -5,11 +5,23 @@
   --SLATE: #434455;
 }
 
+/* Global styles */
+
 body {
   font-family: Roboto, sans-serif;
 }
 
-/* START OF HEADER */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Start of Header */
 
 header {
   display: flex;
@@ -76,15 +88,6 @@ header {
 
 .main-navigation:active {
   color: var(--OCEAN);
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 .main-contacts > li > a {
