@@ -151,6 +151,7 @@ header {
   background-color: lightseagreen;
   justify-content: center;
   margin-top: 120px;
+  height: 104px;
 }
 
 .solutions h3 {
@@ -162,10 +163,12 @@ header {
   letter-spacing: 0.4px;
 }
 
-.solutions ul {
+.solutions-main {
+  margin-top: 0;
+  display: flex;
+  gap: 20px;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
 }
 
 .solutions h3 {
@@ -176,18 +179,14 @@ h3 {
   background-color: lightgray;
 }
 
-.solutions p {
-  background-color: lightsalmon;
-  margin: 0;
-}
-
 .solutions-sub {
-  display: inline-flex;
+  display: flex;
   width: 264px;
+  height: 104px;
   flex-direction: column;
-  align-items: flex-start;
+
   gap: 8px;
-  margin: 0 12px;
+  box-sizing: border-box;
 }
 
 .solutions p {
@@ -198,9 +197,15 @@ h3 {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  background-color: lightsalmon;
+  margin: 0;
 }
 
 /* END OF SOLUTIONS SECTION */
+
+/*
+        WHAT ARE WE DOING
+      */
 
 .services h2,
 .team h2 {
@@ -209,9 +214,12 @@ h3 {
   font-weight: 700;
   font-size: 36px;
   font-family: Roboto;
+  font-style: normal;
   text-transform: capitalize;
   line-height: 40px;
   letter-spacing: 0.72px;
+  background-color: lightseagreen;
+  margin-top: 120px;
 }
 
 .team h3 {
