@@ -20,29 +20,23 @@
   </head>
   <body>
     <header>
-      <!-- 
-        HEADER
-      -->
-
-      <nav class="main">
-        <a href="#" class="logo"><span>WEB</span>STUDIO</a>
-        <ul class="main-navigation">
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+      <div class="container header-container">
+        <nav class="main">
+          <a href="#" class="logo"><span>WEB</span>STUDIO</a>
+          <ul class="main-navigation">
+            <li><a href="./index.html">Studio</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <!--contacts-->
+        <ul class="main-contacts">
+          <li>
+            <a href="mailto:info@devstudio.com" class="">info@devstudio.com</a>
+          </li>
+          <li><a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
         </ul>
-      </nav>
-
-      <!-- 
-        CONTACTS
-      -->
-
-      <ul class="main-contacts">
-        <li>
-          <a href="mailto:info@devstudio.com" class="">info@devstudio.com</a>
-        </li>
-        <li><a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
-      </ul>
+      </div>
     </header>
 
     <!-- 
@@ -67,9 +61,19 @@
               alt="Banking App Interface Concept"
               width="360"
             />
+            <div class="option-list-description">
+              <h3 class="option-list-title titles">
+                Banking App Interface Concept
+              </h3>
+              <p class="option-list-bottom-text bottom-text">App</p>
+            </div>
           </li>
           <li>
             <img src="images/cashless.jpg" alt="Cashless Payment" width="360" />
+            <div class="option-list-description">
+              <h3 class="option-list-title titles">Cashless Payment</h3>
+              <p class="option-list-bottom-text bottom-text">Marketing</p>
+            </div>
           </li>
           <li>
             <img
@@ -77,9 +81,17 @@
               alt="Meditation App"
               width="360"
             />
+            <div class="option-list-description">
+              <h3 class="option-list-title titles">Meditation App</h3>
+              <p class="option-list-bottom-text bottom-text">App</p>
+            </div>
           </li>
           <li>
             <img src="images/taxi-service.jpg" alt="Taxi Service" width="360" />
+            <div class="option-list-description">
+              <h3 class="option-list-title titles">Taxi Service</h3>
+              <p class="option-list-bottom-text bottom-text">Marketing</p>
+            </div>
           </li>
           <li>
             <img
@@ -87,9 +99,17 @@
               alt="Screen Illustrations"
               width="360"
             />
+            <div class="option-list-description">
+              <h3 class="option-list-title titles">Screen Illustrations</h3>
+              <p class="option-list-bottom-text bottom-text">Design</p>
+            </div>
           </li>
           <li>
             <img src="images/happy.jpg" alt="Happy person" width="360" />
+            <div class="option-list-description">
+              <h3 class="option-list-title titles">Online Courses</h3>
+              <p class="option-list-bottom-text bottom-text">Marketing</p>
+            </div>
           </li>
           <li>
             <img
@@ -97,12 +117,24 @@
               alt="Instagram Concept"
               width="360"
             />
+            <div class="option-list-description">
+              <h3 class="option-list-title titles">Taxi Service</h3>
+              <p class="option-list-bottom-text bottom-text">Design</p>
+            </div>
           </li>
           <li>
             <img src="images/organic-food.jpg" alt="Organic Food" width="360" />
+            <div class="option-list-description">
+              <h3 class="option-list-title titles">Screen Illustrations</h3>
+              <p class="option-list-bottom-text bottom-text">Website</p>
+            </div>
           </li>
           <li>
             <img src="images/coffee.jpg" alt="Coffee" width="360" />
+            <div class="option-list-description">
+              <h3 class="option-list-title titles">Online Courses</h3>
+              <p class="option-list-bottom-text bottom-text">Website</p>
+            </div>
           </li>
         </ul>
       </section>
@@ -110,14 +142,52 @@
     <!-- 
         main
       -->
-    <footer class="ftr">
-      <div>
-        <a href="#"><span>WEB</span>STUDIO</a>
-        <p>
-          Increase the flow of customers and<br />
-          sales for your business with digital<br />
-          marketing & growth solutions.
-        </p>
+    <footer>
+      <div class="container footer-container">
+        <div class="footer-logo">
+          <a href="#"><span>WEB</span>STUDIO</a>
+          <p class="footer-text">
+            Increase the flow of customers and<br />
+            sales for your business with digital<br />
+            marketing & growth solutions.
+          </p>
+        </div>
+        <div class="footer-socials">
+          <p class="footer-socials-text text">Social media</p>
+          <ul class="footer-list list">
+            <li class="footer-socials-item">
+              <a href="#" class="footer-socials-link">
+                <svg class="footer-socials-svg" width="24" height="24">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer-socials-item">
+              <a href="#" class="footer-socials-link">
+                <svg class="footer-socials-svg" width="24" height="24">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer-socials-item">
+              <a href="#" class="footer-socials-link">
+                <svg class="footer-socials-svg" width="24" height="24">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer-socials-item">
+              <a href="#" class="footer-socials-link">
+                <svg class="footer-socials-svg" width="24" height="24">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
